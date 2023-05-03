@@ -1,0 +1,28 @@
+version: '3.9'
+
+
+services:
+  #MongoDB services
+  mongo_db:
+    container_name: db_container
+    image: mongo:latest
+    restart: always 
+    volumes: 
+      - mongo_db:/data/db
+
+  #Node API service
+  api:
+    build: .
+    ports:
+      - 4000:8800
+    environment:
+        MONGO_URL:  mongodb+srv://admin:admin@cluster0.fazgop9.mongodb.net/netflix?retryWrites=true&w=majority
+        SECRET_KEY: lama
+    depends_on:
+      - mongo_db
+
+
+
+volumes:
+ mongo_db: {}
+
