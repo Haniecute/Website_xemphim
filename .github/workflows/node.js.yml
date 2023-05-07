@@ -31,12 +31,12 @@ jobs:
     
     - run: |
 
-          npm install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
+          npm install 
+          
           npm ci
-          else
-          npm i
-          fi
-          npm run build
+
+
+
+
   
     - run: npm test
