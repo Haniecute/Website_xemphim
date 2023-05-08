@@ -30,8 +30,3 @@ app.use("/api/lists", listRoute);
 app.listen(8800, () => {
   console.log("Backend server is running!");
 });
-
-app.get("/", (req, res) => {
-  res.json("Hello");
-});
-// co the nham cong 8800
