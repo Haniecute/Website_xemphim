@@ -65,3 +65,11 @@ docker ps -a
 ### Bước 6: Hệ thống sẽ test source code, nếu Pass thì deploy code lên production server
 
 ### Bước 7: Xem lại các merge request, test nếu OK thì tiến hành deploy các thay đổi lên môi trường production
+
+# Phân chia công việc
+
+1. Võ Văn Khánh (coder API, Client: src/authContext, src/Components tester and leader )
+2. Nguyễn Thị Hạnh (coder Admin: src/context, Client: src/pages/home,src/pages/login)
+3. Đinh Thanh Thuỷ (coder Admin: src/pages, Client: src/pages/play)
+4. Bùi Đức Nghĩa (coder Admin src/components, Client: src/pages/watch,src/pages/register)
+5. Đỗ Duy Hùng (player)
