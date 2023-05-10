@@ -31,7 +31,7 @@ jobs:
       - run: npm test
       - name: Scripts
         run: |
-         docker build -t app .
+ 
          docker tag app vovankhanh/web-xemphim-github-actions
          docker push vovankhanh/web-xemphim-github-actions
          docker login -u vovankhanh -p dckr_pat_IZTniC9Cspda93oyCoZF5zofeDQ
