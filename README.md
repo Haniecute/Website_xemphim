@@ -71,5 +71,5 @@ docker ps -a
 1. Võ Văn Khánh (coder API, Client: src/authContext, src/Components tester and leader )
 2. Nguyễn Thị Hạnh (coder Admin: src/context, Client: src/pages/home,src/pages/login)
 3. Đinh Thanh Thuỷ (coder Admin: src/pages, Client: src/pages/play)
-4. Bùi Đức Nghĩa (coder Admin src/components, Client: src/pages/watch,src/pages/register)
-5. Đỗ Duy Hùng (player)
+4. Bùi Đức Nghĩa (coder Admin src/components)
+5. Đỗ Duy Hùng (coder Client: src/pages/watch,src/pages/register, Player)
